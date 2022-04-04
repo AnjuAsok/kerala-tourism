@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.tcr{
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px;
+}

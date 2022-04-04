@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-repeat: no-repeat;
+}
+form{
+    margin: 1px solid black;
+    margin-top: 10%;
+    float: right;
+    margin-right: 20%;
+
+}
+label{
+    width: 300px;
+}

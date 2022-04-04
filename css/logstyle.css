@@ -1,0 +1,26 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    border: 1px;
+    background-color:transparent;
+    align-self: center;
+    margin-left: 35%;
+    margin-top: 15%;
+    margin-right: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+
+}
+.form-class{
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 20%;
+
+}
+
+label{
+    width: 100px;
+    margin-right: 2px;
+}
