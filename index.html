@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>KeralaTourism</title>
     .carousel-inner img {
         width: 100%;
@@ -17,8 +19,8 @@
       </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light  fixed-top justify-content-lg-end ">
-        <!-- <a class="navbar-brand" href="#">Logo</a> -->
+    <nav class="navbar navbar-expand-lg bg-light  fixed-top  ">
+         <a class="navbar-brand justify-content-lg-start" href="#">Kerala Tourism</a> 
         <ul class="navbar-nav ">
           <li class="nav-item">
             <a class="nav-link text-black" href="#">Home</a>
@@ -63,7 +65,7 @@
                 <p>Kerala is known as God’s own country and all for good reason – it is home to some of the best honeymoon destinations in India. The place is surrounded by serene lush greenery and gently flowing backwaters. This fabulous scenery and ideal setting ranks Kerala high up the list of best honeymoon places in India.</p>
                 <p>
                   Kerala is a beautiful heaven for those searching for a characteristic retreat in the period of March in India. God's Own Country, Kerala is at its best just before the beginning of summers. The superb attractions of the state are its backwaters, with houseboats prepared to take you on a noteworthy excursion. Stretches of ordinances and lakes, alongside influencing coconut trees, and a spell of vegetation offers an encounter that one can't find elsewhere.</p>
-                <button type="button" class="btn btn-info">Login</button>
+                <a href="login.html" class=""></a>
             </div>
         </div>
 
@@ -71,7 +73,7 @@
     <br><br>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-2">
               <p class="bg-primary text-white"><a href="thrissur.html" class="text-white">Thrissur</a></p>
               <p class="bg-success text-white"><a href="thiruvanandapuram.html" class="text-white">Thiruvanandapuram</a></p>
               <p class="bg-info text-white"><a href="wayanad.html" class="text-white">Wayanad</a></p>
@@ -85,10 +87,23 @@
               <p class="bg-warning text-white"><a href="idukki.html" class="text-white">Kollam</a></p>
               <p class="bg-danger text-white"><a href="alappuzha.html" class="text-white">Palakkad</a></p>
               <p class="bg-secondary text-white"><a href="alappuzha.html" class="text-white">Kottayam</a></p>
-              <p class="bg-dark text-white"><a href="alappuzha.html" class="text-white">Malappuram</a></p>
+              <p class="bg-dark text-white"><a href="alappuzha.html" class="text-white">Malappuram</a></p><br>
+              <a href="destinaion.html">View More</a>
             </div>
-            <div class="col-lg-8 " >
-                <img src="images/map.jpeg" alt="">
+            <div class="col-lg-4">
+              <h4>What's New</h4>
+              <ul>
+                <li>Vishu on April 15</li><br>
+                <li>Cheriya perunnal</li><br>
+                <li>Thrissur pooram o May 10</li><br>
+                <li>Vishu on April 15</li><br>
+                <li>Monsoon starts</li><br>
+              </ul>
+              <a href="">More</a>
+            </div>
+            
+            <div class="col-lg-6 justify-content-center">
+             <img src="images/map.jpeg" alt="">
             </div>
         </div>
 
@@ -108,7 +123,7 @@
         </div>
         <div class="col-lg-3">
           <div class="card" style="width: 18rem; ">
-            <img src="images/1648859496121.jpeg" class="card-img-top img-fluid  " alt="..." width="100%">
+            <img src="images/chembra-peak.jpg" class="card-img-top img-fluid  " alt="..." width="100%">
             <div class="card-body">
                 <h3>Nature</h3>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -139,22 +154,25 @@
       </div>
     </div>
     <footer >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <p>contact address</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>links</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>facebook</p>
-                    <p>twitter</p>
-                    <p>youtube</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <p>Contact Us</p>
+            <p>keralatourism@gmail.com</p>
+            <p>Phone:9876543466</p><br>
+          </div>
+          <div class="col-lg-8">
+            <br>
+            <p>Follow Us</p>
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
         </div>
-
+      </div>
     </footer>
 </body>
 </html>
