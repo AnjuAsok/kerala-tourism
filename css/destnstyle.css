@@ -12,3 +12,7 @@
     height: 30vw;
     object-fit: cover;
 }
+.top{
+    height: 30px;
+    width: 100%;
+}
