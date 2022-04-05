@@ -2,9 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-.tcr{
-    height: 20%;
+#head-id{
     width: 100%;
-    border: 1px solid black;
-    margin: 0px;
+    height: 30%;
+    background-color: brown;
+    background-size: cover;
 }
