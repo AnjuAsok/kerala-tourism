@@ -3,24 +3,32 @@ body{
     background-repeat: no-repeat;
 }
 form{
-    border: 1px;
-    background-color:transparent;
+    border: none;
+    background-color:#ccc;
+    height: 20em;
+    width: 20em;
+
     align-self: center;
     margin-left: 35%;
-    margin-top: 15%;
-    margin-right: 25%;
+    margin-top: 10%;
+    padding: 3%;
+   /* margin-right: 25%; */
     font-family: 'Times New Roman', Times, serif;
     font-weight:bolder;
 
 }
-.form-class{
+/* .form-class{
     margin-top: 15%;
     margin-left: 25%;
     margin-right: 20%;
 
-}
+} */
 
 label{
     width: 100px;
     margin-right: 2px;
+}
+input{
+    width: 15em;
+    height: 2em;
 }

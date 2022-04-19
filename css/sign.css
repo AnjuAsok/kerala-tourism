@@ -6,12 +6,13 @@ body{
     background-repeat: no-repeat;
 }
 form{
-    margin: 1px solid black;
-    margin-top: 10%;
-    float: right;
-    margin-right: 20%;
-
+    /* margin-top: 5%; */
+    margin-left: 50%;
 }
 label{
+    width: 300px;
+}
+.txtbox
+{
     width: 300px;
 }
