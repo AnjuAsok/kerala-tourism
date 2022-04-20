@@ -11,6 +11,7 @@ form{
 }
 label{
     width: 300px;
+    font-weight:600;
 }
 .txtbox
 {

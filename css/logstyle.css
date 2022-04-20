@@ -32,3 +32,7 @@ input{
     width: 15em;
     height: 2em;
 }
+#submit{
+    width: 5em; 
+    margin-left: 5em;
+}

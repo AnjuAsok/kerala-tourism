@@ -11,15 +11,17 @@ function validation()
     var password=/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
     var phonenumber=/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
+    var no=0;
+
     if(t1=="")
     {
         document.getElementById('username').innerHTML="*Please fill the name field";
-        return false;
+        //return false;
     }
     else if(!name.test(t1))
     {
         document.getElementById('username').innerHTML="*Name should be characters";
-        return false;
+        //return false;
     }
     else
     {
@@ -29,12 +31,12 @@ function validation()
     if(t2=="")
     {
         document.getElementById('emailid').innerHTML="*Please enter your emailid";
-        return false;
+        //return false;
     }
     else if(!email.test(t2))
     {
         document.getElementById('emailid').innerHTML="*Please enter a valid email id";
-        return false
+        //return false
     }
     else
     {
@@ -43,12 +45,12 @@ function validation()
     if(t3=="")
     {
         document.getElementById('phno').innerHTML="*Please enter the phone number";
-        return false;
+        //return false;
     }
     else if(!phonenumber.test(t3))
     {
         document.getElementById('phno').innerHTML="*Please enter valid phone number ";
-        return false; 
+        //return false; 
     }
     else
     {
@@ -58,12 +60,12 @@ function validation()
     if(t4=="")
     {
         document.getElementById('pass').innerHTML="*Please fill the password ";
-        return false;
+        //return false;
     }
     else if(!password.test(t4))
     {
         document.getElementById('pass').innerHTML="*Minimum 8 characters, at least one uppercase,one lower case,and one special character must contain at least one number";
-        return false; 
+        //return false; 
     }
     else
     {
@@ -73,12 +75,12 @@ function validation()
     if(t5=="")
     {
         document.getElementById('cpass').innerHTML="*Please reenter the password";
-        return false;
+        //return false;
     }
     else if(t4!=t5)
     {
         document.getElementById('cpass').innerHTML="*Password is not matching ";
-        return false; 
+        //return false; 
     }
     else
     {

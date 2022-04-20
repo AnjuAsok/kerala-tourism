@@ -14,7 +14,7 @@
       .navbar-brand{
     color:darkgreen;
     justify-self: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 
 }
@@ -33,7 +33,7 @@
             <a class="nav-link text-white" href="destinaion.html">Destination</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Login</a>
+            <a class="nav-link text-white" href="signup.html">SignUp</a>
           </li>
         </ul>
       </nav>
@@ -41,17 +41,22 @@
     <div></div>
      
           
-      <form>
+      <form action="#" onsubmit="return validation()">
           <label>User name</label>
-          <input type="text" value="User name" ><br><br>
+          <input type="text"  id="user"><br>
+          <span id="username" style="color: red;"></span>
+          <br>
           <label>Password</label>
-          <input type="password" value="password"><br><br>
-          <button type="button" class="btn btn-primary ">Login</button><br><br>
+          <input type="password"  id="pwd"><br>
+          <span id="pass" style="color: red;"></span>
+          <br>
+          <input type="submit" id="submit" class="btn btn-primary ">
+          <!-- <button type="button" class="btn btn-primary ">Login</button><br><br> -->
           <p>Create a new account?
           <a href="signup.html"  >SignUp</a></p>
       
     
     </div>
-</bod
-+y>
+    <script src="./verify.js"></script>
+</body>
 </html>
