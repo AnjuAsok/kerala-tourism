@@ -23,6 +23,8 @@ function validation()
     var name=/^[A-Za-z]+$/;
     var password=/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
 
+    var f1=0,f2=0;
+
     if(u=="")
     {
         document.getElementById('username').innerHTML="*Please fill the name field";
@@ -36,6 +38,7 @@ function validation()
     else
     {
         document.getElementById('username').innerHTML="";
+        f1=1;
     }
     if(p=="")
     {
@@ -49,8 +52,16 @@ function validation()
     }
     else
     {
-        document.getElementById('pass').innerHTML="";   
+        document.getElementById('pass').innerHTML="";  
+        f2=1; 
         
+    }
+    if(f1==1&f2==1)
+    {
+        alert("Thank you for login");
+        document.getElementById('user').value="";
+        document.getElementById('pwd').value="";
+
     }
 
 }

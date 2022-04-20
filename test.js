@@ -11,7 +11,7 @@ function validation()
     var password=/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-])/;
     var phonenumber=/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
 
-    var no=0;
+    var f1=0,f2=0,f3=0,f4=0;
 
     if(t1=="")
     {
@@ -26,6 +26,7 @@ function validation()
     else
     {
         document.getElementById('username').innerHTML="";
+        f1=1;
 
     }
     if(t2=="")
@@ -41,6 +42,8 @@ function validation()
     else
     {
         document.getElementById('emailid').innerHTML="";
+        f2=1;
+
     }
     if(t3=="")
     {
@@ -55,6 +58,7 @@ function validation()
     else
     {
         document.getElementById('phno').innerHTML="";
+        f3=1
         
     }
     if(t4=="")
@@ -69,7 +73,8 @@ function validation()
     }
     else
     {
-        document.getElementById('pass').innerHTML="";   
+        document.getElementById('pass').innerHTML="";  
+        f4=1; 
         
     }
     if(t5=="")
@@ -84,7 +89,17 @@ function validation()
     }
     else
     {
-        document.getElementById('cpass').innerHTML="";   
+        document.getElementById('cpass').innerHTML="";  
+        f5=1; 
+    }
+    if(f1==1&&f2==1&&f3==1&&f4==1&&f5==1)
+    {
+        alert("Thank you for join with us.")
+        document.getElementById("t1").value="";
+		document.getElementById("t2").value="";
+		document.getElementById("t3").value="";
+		document.getElementById("t4").value="";
+		document.getElementById("t5").value="";
     }
 
 }
